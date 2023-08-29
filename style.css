@@ -1,0 +1,79 @@
+body {
+    /* configurações da imagem */
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 
+    Class que tem responsabilidade de controlar o conteúdo
+*/
+.container {
+    /* troca todas as cores de texto */
+    color: white;
+    /* cria um espaço */
+    padding: 30px;
+}
+/* 
+    Carde do centro para conter as informações
+*/
+
+
+
+img {
+      width: 100%;
+      padding: 0px;
+      position: relative;
+      border-radius: 15px;
+      /* left: 50;
+      top: 50%; */
+    }
+
+
+
+.card {
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 05px;
+    width: 100%;
+    display: block;
+ 
+    
+}
+
+
+.card2 {
+    background-color: yellow;
+    padding: 10px;
+   
+   
+}
+
+/* 
+    É um botão para abrir o zap
+*/
+.contato {
+    /* cria um espaço */
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    top: 10px
+   
+
+
+
+    /* color: black; */
+}
+a {
+    /* cria um espaço */
+    padding: 1px;
+    /* adiciona a cor ao espaço */
+    background-color: black;
+    /* deixa a borda arredondada */
+    border-radius: 15px;
+    /* muda a cor do texto */
+    color: black;
+    max-width: 200px; max-height: 150px 
+ 
+}
