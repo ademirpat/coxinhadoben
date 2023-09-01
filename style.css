@@ -18,8 +18,6 @@ body {
     Carde do centro para conter as informações
 */
 
-
-
 img {
       width: 100%;
       padding: 0px;
@@ -30,7 +28,6 @@ img {
     }
 
 
-
 .card {
     background-color: black;
     border-radius: 20px;
@@ -38,10 +35,8 @@ img {
     padding: 05px;
     width: 100%;
     display: block;
- 
-    
+     
 }
-
 
 .card2 {
     background-color: yellow;
