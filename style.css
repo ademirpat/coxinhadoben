@@ -5,14 +5,22 @@ body {
     background-size: cover;
 }
 
+/* Cabeçalho */
+
+header{
+    background-color: #ffff00;
+    color: #000;
+    padding: 15px;
+    text-align: center;
+}
 /* 
     Class que tem responsabilidade de controlar o conteúdo
 */
 .container {
-    /* troca todas as cores de texto */
-    color: white;
-    /* cria um espaço */
-    padding: 30px;
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+    border-radius: 15px;
 }
 /* 
     Carde do centro para conter as informações
@@ -28,8 +36,12 @@ img {
     }
 
 
+    
+ 
+
+
 .card {
-    background-color: black;
+    background-color: #ffff00;
     border-radius: 20px;
     text-align: center;
     padding: 05px;
@@ -37,12 +49,41 @@ img {
     display: block;
      
 }
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
 
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ffff00;
+    color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 1s;
+    border-color: #000;
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #ffff00;
+    border-color: black ;
+}
 .card2 {
     background-color: yellow;
-    padding: 10px;
-   
-   
+    padding: 10px; 
+}
+
+#img-1{
+    background-image:url("./images.jpg");
 }
 
 /* 
@@ -60,15 +101,11 @@ img {
 
     /* color: black; */
 }
-a {
-    /* cria um espaço */
-    padding: 1px;
-    /* adiciona a cor ao espaço */
-    background-color: black;
-    /* deixa a borda arredondada */
-    border-radius: 15px;
-    /* muda a cor do texto */
-    color: black;
-    max-width: 200px; max-height: 150px 
- 
+
+footer{
+    background-color: #ffff00;
+    color:#000;
+    border-top: #ebeba6 3px solid;
+    text-align: center;
+    padding: 80px;
 }
