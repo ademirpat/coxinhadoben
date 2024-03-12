@@ -11,11 +11,16 @@ body {
 header{
     background-color: #ffff00;
     color: #000;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     font-family: verdana;
-    display: inline;
+    margin: 5px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%; 
 }
+
 
 .container {
     background-color: #eee;
