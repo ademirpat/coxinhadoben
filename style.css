@@ -3,72 +3,99 @@ body {
     background-color: yellow;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
 }
 
-/* 
-    Class que tem responsabilidade de controlar o conteúdo
-*/
+/* Cabeçalho */
+
+header{
+    background-color: #ffff00;
+    color: #000;
+    padding: 1px;
+    position: fixed;
+    width: 110%; 
+ }
+
+
 .container {
-    /* troca todas as cores de texto */
-    color: white;
-    /* cria um espaço */
-    padding: 30px;
+    background-color: #eee;
+    padding:30px;
+    border-radius: 15px;
+    top: 10;
+    width: 95%;
+    display: block;
+
 }
-/* 
-    Carde do centro para conter as informações
-*/
 
 img {
-      width: 100%;
-      padding: 0px;
-      position: relative;
-      border-radius: 15px;
-      /* left: 50;
-      top: 50%; */
+      width: 30%;
+      display:flex;
+      margin: 1% 6%;
+      padding: 2px;
+      display: inline-block;
     }
-
-
+  
 .card {
-    background-color: black;
+    background-color: #ffff00;
     border-radius: 20px;
     text-align: center;
-    padding: 05px;
+    padding: 15px;
+    font-family: Helvetica;   
+}
+.product-image{
+    height: 300px;
     width: 100%;
-    display: block;
-     
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
 }
 
+.btn{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ffff00;
+    color: #000;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #ffff00;
+}
 .card2 {
     background-color: yellow;
-    padding: 10px;
-   
-   
+    padding: 10px; 
+    border-radius: 15px;
 }
 
-/* 
-    É um botão para abrir o zap
-*/
+
+#img-1{
+    background-image:url("./images.jpg");
+}
+
 .contato {
-    /* cria um espaço */
     background-color: yellow;
     margin: 0;
     padding: 0;
     top: 10px
-   
 
-
-
-    /* color: black; */
 }
-a {
-    /* cria um espaço */
-    padding: 1px;
-    /* adiciona a cor ao espaço */
-    background-color: black;
-    /* deixa a borda arredondada */
-    border-radius: 15px;
-    /* muda a cor do texto */
-    color: black;
-    max-width: 200px; max-height: 150px 
- 
+
+footer{
+    background-color: #ffff00;
+    color:#000;
+    text-align: center;
+    padding: 80px;
+}
+
+.mascote{
+    width: 30%;
+    display: block;
+    padding: 5px;
 }
